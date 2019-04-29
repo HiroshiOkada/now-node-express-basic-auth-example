@@ -1,6 +1,5 @@
 # @now/node express basic auth example
 
-
 これは https://zeit.co の now という paas で @now/node ビルダーと express を使って
 静的な web サイトを basic 認証付きで提供するサンプルです。
 
