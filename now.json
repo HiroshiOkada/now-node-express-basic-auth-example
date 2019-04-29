@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "now-node-express-basic-auth-example",
+  "alias": [
+    "now-now-express-basic-auth-example"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "builds": [
+    {
+      "src": "/index.js",
+      "use": "@now/node",
+      "config": {
+        "includeFiles": [
+          "public/**"
+        ]
+      }
+    }
+  ]
+}
