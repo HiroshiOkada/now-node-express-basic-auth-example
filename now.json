@@ -2,7 +2,7 @@
   "version": 2,
   "name": "now-node-express-basic-auth-example",
   "alias": [
-    "now-now-express-basic-auth-example"
+    "now-express-basic-auth-example"
   ],
   "routes": [
     {
